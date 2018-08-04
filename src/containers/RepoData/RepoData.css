@@ -1,0 +1,125 @@
+.Links{
+    overflow:hidden;
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    border-bottom:1px solid #d1d5da;
+    margin-bottom:5px;
+}
+.LinksList{
+    list-style-type:none;
+    text-decoration: none;
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    overflow:hidden;
+}
+
+.LinksList li{
+    display:block;
+    float:left;
+    padding:0;
+    margin:0;
+}
+.LinksList li button{
+    text-decoration: none;
+    font-size: 14px;
+    padding:10px;
+    margin-right:15px;
+    line-height: 1.5;
+    color: #586069;
+    border:0px solid black;
+    background-color:white;
+    outline:none;
+}
+
+.LinksList li button:hover{
+   cursor: pointer;
+}
+
+.Clicked{
+    border-top:none !important;
+    border-left:none !important;
+    border-right:none !important;
+    border-bottom: 2px solid #e36209 !important;
+    color:black !important;
+    font-weight:600 !important;
+}
+
+.Filters{
+    text-align:left;
+    display:block;
+    overflow:hidden;
+    border-bottom:1px solid #d1d5da;
+    padding-bottom:5px;
+
+}
+
+.Filters * {
+        display:block;
+        float:left;
+        width:20%;
+        padding:2px;
+        margin: 2px 1.5%;
+        box-sizing: border-box;
+
+    } 
+.Filters .Input{
+    border: 1px solid #d1d5da;
+    border-radius:3px;
+    font-size:14px;
+    width:50%;
+    margin: 2px 1.5% 2px 0;
+}
+
+@media(max-width:800px){
+    .LinksList li{
+            display:block;
+            padding:0;
+            margin:2px auto;
+            height:50px;
+            width:100%;
+            background-color: #eff3f6;
+            box-sizing: border-box;
+        }
+
+    .LinksList li button{
+            text-decoration: none;
+            font-size: 14px;
+            padding:10px;
+            margin-right:15px;
+            line-height: 1.5;
+            color: #586069;
+            background-color: #eff3f6;
+            background-image: linear-gradient(-180deg, #fafbfc 0%, #eff3f6 90%);
+            outline:none;
+            width:100%;
+            height:50px;
+
+    }
+
+    .Filters *{
+        display:block;
+        margin:2px auto;
+        padding:0;
+        height:50px;
+        width:100%;
+        box-sizing: border-box;
+
+    } 
+
+    .Filters .Input{
+    border: 1px solid #d1d5da;
+    border-radius:5px;
+    font-size:14px;
+    width:100%;
+}
+
+    .LinksList li p{
+    margin-top:15px;
+}
+
+    
+
+
+}

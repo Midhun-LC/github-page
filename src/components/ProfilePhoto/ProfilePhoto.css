@@ -1,0 +1,11 @@
+.Photo{
+    width:100%;
+    border-radius:5px;
+}
+
+@media (max-width:800px){
+    .Photo{
+        width:50%;
+        border-radius:5px;
+    }
+}

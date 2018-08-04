@@ -1,0 +1,52 @@
+.Item{
+    text-align: left;
+    width:100%;
+    margin:2px 0;
+    padding-top:25px;
+    padding-bottom:15px;
+    padding-left:10px;
+    padding-right:10px;
+    box-sizing: border-box;
+    border-bottom:1px solid #d1d5da;
+    color: #586069
+}
+
+.Item .Heading{
+    margin:0;
+    padding:0;
+    color: #0366d6;
+    text-decoration: none;
+    font-weight:600;
+    font-size:20px;
+}
+
+.Item .Heading:hover{
+    text-decoration:underline;
+}
+
+.Item .Description{
+    font-size:14px;
+}
+
+.Item .Language{
+    font-size:12px;
+}
+
+.Time{
+    font-size:12px;
+    margin-left:15px;
+}
+
+.EmptyResult{
+    text-align:center;
+    margin-top:5%;
+    width:100%;
+    padding:50px;    
+    background-color: #fafbfc;
+    border-radius:5px;
+    border: 1px solid #e1e4e8;;
+    box-sizing:border-box;
+
+}
+
+

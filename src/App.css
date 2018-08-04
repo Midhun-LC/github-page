@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  width:60%;
+  display:grid;
+  grid-template-columns:20% 80%;
+  margin:5px auto;
+  padding:5px;
+  box-sizing:border-box;
+}
+
+.Profile{
+  margin:5px 5px;
+}
+
+.Data{
+  margin:5px 5px;
+}
+
+
+@media (max-width:800px){
+  .App {
+  text-align: center;
+  width:100%;
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  display:flex;
+  flex-wrap:wrap; 
+}
+
+.Profile{
+  width:95%;
+  margin: 2px auto;
+}
+
+.Data{
+  width:95%;
+  margin:2px auto;
+}
+
+}
